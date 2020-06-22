@@ -4,34 +4,39 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <title>Kecamatan Bekasi Barat</title>
    <link rel="stylesheet" href="assets/styles/style.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
-<body>
-	<header>
-       <div class="judul">
-			<img src="assets/image/logo.png" class="logo">
-	   </div>
-        <nav>
-		  <ul>
-            <li><a href="#sejarah">Sejarah</a></li>
-            <li><a href="#geografis">Geografis</a></li>
-            <li><a href="#kelurahan">Daftar Kelurahan</a></li>
-          </ul>
-		</nav>
-    </header>
-	<main>
+<body class="body-web">                                                      
+<nav class="navbar navbar-expand-lg navbar-light judul sticky-top">
+  <a class="navbar-brand">
+  			<img src="assets/image/logo.png" class="logo">
+  </a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end " id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+			<a class="nav-item nav-link text-white" href="#sejarah">Sejarah</a>
+            <a class="nav-item nav-link text-white" href="#geografis">Geografis</a>
+            <a class="nav-item nav-link text-white" href="#kelurahan">Daftar Kelurahan</a>
+    </div>
+  </div>  
+
+</nav>
+	<main class="main-content">
        <div id="content">
            <article id="sejarah" class="card">
-               <h2>Sejarah</h2>
+               <h2 class="card-title font-weight-bold">Sejarah</h2>
                <img src="assets/image/history.jpg" class="featured-image"  alt="sejarah">
-               <p>Dayeuh Sundasembawa atau Jayagiri, itulah sebutan Bekasi tempo dulu sebagai Ibu kota Kerajaan Tarumanagara (358-669). Luas Kerajaan ini mencakup wilayah Bekasi, Sunda Kelapa, Depok, Cibinong, Bogor hingga ke wilayah Sungai Cimanuk di Indramayu. Menurut para ahli sejarah dan fisiologi, letak Dayeuh Sundasembawa atau Jayagiri sebagai Ibu kota Tarumanagara adalah di wilayah Bekasi sekarang. Dayeuh Sundasembawa inilah daerah asal Maharaja Tarusbawa (669-723 M) pendiri Kerajaan Sunda dan seterusnya menurunkan Raja-Raja Sunda sampai generasi ke-40 yaitu Ratu Ragumulya (1567-1579 M) Raja Kerajaan Sunda (disebut pula Kerajaan Pajajaran) yang terakhir.</p>
+               <p class="mt-3">Dayeuh Sundasembawa atau Jayagiri, itulah sebutan Bekasi tempo dulu sebagai Ibu kota Kerajaan Tarumanagara (358-669). Luas Kerajaan ini mencakup wilayah Bekasi, Sunda Kelapa, Depok, Cibinong, Bogor hingga ke wilayah Sungai Cimanuk di Indramayu. Menurut para ahli sejarah dan fisiologi, letak Dayeuh Sundasembawa atau Jayagiri sebagai Ibu kota Tarumanagara adalah di wilayah Bekasi sekarang. Dayeuh Sundasembawa inilah daerah asal Maharaja Tarusbawa (669-723 M) pendiri Kerajaan Sunda dan seterusnya menurunkan Raja-Raja Sunda sampai generasi ke-40 yaitu Ratu Ragumulya (1567-1579 M) Raja Kerajaan Sunda (disebut pula Kerajaan Pajajaran) yang terakhir.</p>
  
                <p>Wilayah Bekasi tercatat sebagai daerah yang banyak memberi informasi tentang keberadaan Tatar Sunda pada masa lampau. Diantaranya dengan ditemukannya empat prasasti yang dikenal dengan nama Prasasti Kebantenan. Keempat prasasti ini merupakan keputusan (piteket) dari Sri Baduga Maharaja (Prabu Siliwangi, Jayadewa 1482-1521 M) yang ditulis dalam lima lembar lempeng tembaga. Sejak abad ke 5 Masehi pada masa Kerajaan Tarumanagara abad kea 8 Kerajaan Galuh, dan Kerajaan Pajajaran pada abad ke 14, Bekasi menjadi wilayah kekuasaan karena merupakan salah satu daerah strategis, yakni sebagai penghubung antara pelabuhan Sunda Kelapa (Jakarta).</p>
            </article>
  
            <article id="geografis" class="card">
-               <h2>Geografis</h2>
+               <h2 class="card-title font-weight-bold">Geografis</h2>
                <img src="assets/image/geografis.jpg" class="featured-image"  alt="geografis">
-               <p>Kota Bekasi memiliki luas wilayah sekitar 210,49 km2, dengan batas wilayah Kota Bekasi adalah: </p>
+               <p class="mt-3">Kota Bekasi memiliki luas wilayah sekitar 210,49 km2, dengan batas wilayah Kota Bekasi adalah: </p>
 					<ul>
 						<li>Utara	Kabupaten Bekasi</li>
 						<li>Timur	Kabupaten Bekasi</li>
@@ -42,27 +47,27 @@
            </article>
  
            <article id="kelurahan" class="card">
-               <h2>Daftar Kelurahan</h2>
-               <p>Ada 4 Kelurahan di Kecamatan Bekasi Barat yang mayoritas berstatus zona hijau dari Pandemi <b>COVID-19</b></p>
+               <h2 class="card-title font-weight-bold">Daftar Kelurahan</h2>
+               <p class="mt-3">Ada 4 Kelurahan di Kecamatan Bekasi Barat yang mayoritas berstatus zona hijau dari Pandemi <b>COVID-19</b></p>
                <section>
-                   <h3>1. Kelurahan Bintara</h3>
+                   <h3 class="section-title font-weight-bold">1. Kelurahan Bintara</h3>
                    <img src="assets/image/bintara.jpg" class="featured-image"  alt="kelurahan bintara">
-                   <p>Kantor kelurahan ini berada di dekat Perumahan Prima Bintara dan Griya Bintara Indah.</p>
+                   <p class="mt-3">Kantor kelurahan ini berada di dekat Perumahan Prima Bintara dan Griya Bintara Indah.</p>
                </section>
                <section>
-                   <h3>2. Kelurahan Bintara Jaya</h3>
+                   <h3 class="section-title font-weight-bold">2. Kelurahan Bintara Jaya</h3>
                    <img src="assets/image/bintarajaya.jpg" class="featured-image"  alt="kelurahan bintara jaya">
-                   <p>Kelurahan ini berbatasan dengan Kelurahan Bintara, Bekasi Barat, Bekasi di sebelah utara, Kelurahan Pondok Kelapa, Duren Sawit dan Pondok Kopi, Duren Sawit di sebelah barat, Kelurahan Jakasampurna, Bekasi Barat, Bekasi di sebelah timur, dan Kelurahan Jatibening, Pondok Gede, Bekasi di sebelah selatan.</p>
+                   <p class="mt-3">Kelurahan ini berbatasan dengan Kelurahan Bintara, Bekasi Barat, Bekasi di sebelah utara, Kelurahan Pondok Kelapa, Duren Sawit dan Pondok Kopi, Duren Sawit di sebelah barat, Kelurahan Jakasampurna, Bekasi Barat, Bekasi di sebelah timur, dan Kelurahan Jatibening, Pondok Gede, Bekasi di sebelah selatan.</p>
                </section>
 			   <section>
-                   <h3>3. Kelurahan Jakasampurna</h3>
+                   <h3 class="section-title font-weight-bold">3. Kelurahan Jakasampurna</h3>
                    <img src="assets/image/jakasampurna.jpg" class="featured-image"  alt="kelurahan jakasampurna">
-                   <p>Dahulu Kelurahan ini merupakan wilayah dari kecamatan Bekasi Selatan.</p>
+                   <p class="mt-3">Dahulu Kelurahan ini merupakan wilayah dari kecamatan Bekasi Selatan.</p>
                </section>
                <section>
-                   <h3>2. Kelurahan Kranji</h3>
+                   <h3 class="section-title font-weight-bold">4. Kelurahan Kranji</h3>
                    <img src="assets/image/kranji.jpg" class="featured-image"  alt="kelurahan kranji">
-                   <p>Per Juni 2020 ini. Kelurahan ini tercatat memiliki 16 RW</p>
+                   <p class="mt-3">Per Juni 2020 ini. Kelurahan ini tercatat memiliki 16 RW</p>
                </section>
            </article>
        </div>
@@ -70,13 +75,13 @@
        <aside class="profile">
 			<article class="card">
 				<header>
-					<h2>Ardli Firdlaus</h2>
+					<h2 class="card-title font-weight-bold">Ardli Firdlaus</h2>
 					<figure>
 						<img src="assets/image/profile.jpg">
 					</figure>
 				</header>
 				<section>
-					<h3>Informasi Lainnya</h3>
+					<h3 class="section-title font-weight-bold">Informasi Lainnya</h3>
 					<table>
 						<tr>
 							<th>Tempat Lahir</th>
@@ -103,7 +108,15 @@
 	   </aside>
    </main>	
    <footer>
-		<p>&copy; 2020, Idos</p>   
+		&copy; 2020, Idos   
    </footer>
+   
+   
+   
+   
+   
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>
