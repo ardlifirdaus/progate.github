@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
 
-body {
+* {
+   box-sizing: border-box;
+}
+
+header {
+   display: inline;
+}
+
+.body-web {
    font-family: "Comic Neue", sans-serif;
    margin: 0;
    padding: 0;
@@ -11,20 +19,12 @@ body {
     height: 40px;
 }
 
-h2 {
+.card-title {
    color: #ffc501
 }
  
-h3 {
+.section-title {
    color: #ffc501
-}
-
-footer {
-   padding: 20px;
-   color: white;
-   background-color: #ffc501;
-   text-align: center;
-   font-weight: bold;
 }
 
 nav a {
@@ -36,6 +36,7 @@ nav a {
 
 nav a:hover {
    font-weight: bold;
+   background-color: rgba(255, 255, 255, 0.3);
 }
 
 .profile header {
@@ -47,6 +48,10 @@ nav a:hover {
    max-height: 300px;
    object-fit: cover;
    object-position: center;
+}
+
+p {
+	text-align: justify;
 }
 
 .profile img {
@@ -61,26 +66,16 @@ nav a:hover {
 }
 
 .judul {
-   font-size: 20px;
-   padding: 60px;
+   animation-name: example;
+   animation-duration: 4s;
    background-color: #ffc501;
-   text-align: center;
+}
+@keyframes example {
+  from {background-color: #01eaff;}
+  to {background-color: #ffc501;}
 }
 
-nav li {
-   display: inline;
-   list-style-type: none;
-   margin-right: 20px;
-}
-
-nav {
-   background-color: #ffc501;
-   padding: 5px;
-   position: sticky;
-   top: 0;
-}
-
-main {
+.main-content {
    padding: 20px;
    overflow: auto;
 }
@@ -90,10 +85,36 @@ main {
    width: 75%;
 }
 
+.header-flex {
+display: flex;
+padding-left: 40px;
+padding-right: 40px;
+background-color: #ffc501;
+justify-content: space-between;
+height: 95px;
+}
+
+.header-flex div {
+margin: 10px;
+padding: 20px;
+}
+
+.header-flex .nav-head {
+margin-right: auto
+}
+
 aside {
    float: right;
    width: 25%;
    padding-left: 20px;
+}
+
+footer {
+   padding: 15px;
+   color: white;
+   background-color: #ffc501;
+   text-align: center;
+   font-weight: bold;
 }
 
 th {
@@ -108,10 +129,11 @@ th {
    }
 }
 
-* {
-   box-sizing: border-box;
+@media screen and (max-width: 720px) {
+.header-flex {
+	display: block;
+	height: auto;
+	margin-top: -10px
 }
 
-header {
-   display: inline;
 }
